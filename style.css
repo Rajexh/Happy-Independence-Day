@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(255, 106, 0) ,white, green);
+}
+
+.img1{
+    filter: drop-shadow(.2rem .2rem .24rem black);
+}
+
+.containor{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.top , .middle , .bottom{
+    height: 88px;
+    width: 100%;
+
+}
+
+.top{
+    background-color: rgb(255, 106, 0);
+}
+
+.middle{
+    background-color: white;
+}
+
+.bottom{
+    background-color: green;
+}
+
+.img2{
+    scale: 138%;
+    filter: drop-shadow(0 0 .10rem black);
+    margin-top: 8px;
+    animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* @media (width <= 1080px){ 
+    body{
+        height: 2400px;
+        width: 1080px;
+        text-align: center;
+        background-image: linear-gradient(to right, rgb(255, 106, 0) ,white, green);
+        background-repeat: no-repeat;
+        place-items: center;
+    }
+    
+    .img1{
+        filter: drop-shadow(.2rem .2rem .24rem black);
+        margin-right: 300px;
+        margin-top: 200px;
+    }
+    
+    .containor{
+        width: 400px;
+        margin: 0 auto;
+        margin-left: 200px;
+        margin-top: 200px;
+    }
+    
+    .top , .middle , .bottom{
+        height: 88px;
+        width: 100%;
+    }
+    
+    .top{
+        background-color: rgb(255, 106, 0);
+    }
+    
+    .middle{
+        background-color: white;
+    }
+    
+    .bottom{
+        background-color: green;
+    }
+    
+    .img2{
+        scale: 138%;
+        filter: drop-shadow(0 0 .10rem black);
+        margin-top: 8px;
+        animation: rotate 7s linear infinite;
+    }
+    
+    @keyframes rotate{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+}*/
